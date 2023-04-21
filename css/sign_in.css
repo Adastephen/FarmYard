@@ -1,0 +1,56 @@
+#navbar_header {
+   background-color: rgba(20, 144, 48, 1);
+}
+#navbar_list>li>a {
+    color: rgba(253, 247, 253, 1);
+}
+#sign-in_list {
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 16%;
+    margin: 10px;
+    margin-right: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#Service-provider_list, #Lorem-ipsum_list, #Farm-produce_list {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footer_nav {
+    background-color: rgba(20, 144, 48, 1);
+    height: 70px;
+    color: rgba(253, 247, 253, 1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+p {
+   margin: 10px;
+   margin-top: 25px;
+}
+.smedia_handle {
+    list-style: none;
+    float: right;
+    text-decoration: none;
+    display: block;
+    margin: 4px;
+    margin-left: 24px;
+}
+.smedia_handle li {
+    float: left;
+    padding-right: 10px;
+    text-align: center;
+    margin-top: 25px;
+}
+.smedia_handle>li>a>img {
+    font-family: 'glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    height: 20px;
+    width: 20px;
+}
+
+.footer_container {
+    margin: 12px;
+}

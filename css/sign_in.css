@@ -1,6 +1,13 @@
 #navbar_header {
    background-color: rgba(20, 144, 48, 1);
 }
+#brand_logo {
+    font-family: 'glyphicons Halflings';
+    vertical-align: middle;
+    height: 50px;
+    width: 60px;
+    margin-top: 0px;
+}
 #navbar_list>li>a {
     color: rgba(253, 247, 253, 1);
 }

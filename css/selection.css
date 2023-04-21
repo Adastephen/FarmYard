@@ -1,0 +1,37 @@
+
+#container {
+    background-color: rgb(214, 196, 196);
+}
+#row {
+    margin: 20px;
+    margin-top: 100px;
+    margin-bottom: auto;
+    background-color: #F7F9FA;
+}
+#div_row {
+    width: 100%;
+    align-items: center;
+}
+#para1, #para2 {
+    text-align: center;
+}
+#image {  
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;
+    height: 250px;
+    width: 250px;    
+    padding: 5px;  
+}
+#farmer, #service_provider, #buyer {
+    margin-left: 68px;
+    margin-right: 68px;
+    margin-bottom: 40px;
+    box-shadow: blue, 3px;
+    width: 260px;
+    text-align: center;
+}
+div>img {
+    height: 80px;
+    margin: 20px;
+}

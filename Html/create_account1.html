@@ -3,11 +3,11 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Sign in</title>
+	<title>Create account</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="../css/sign_in.css">
+	<link rel="stylesheet" type="text/css" href="../css/create_account1.css">
 </head>
-<body>
+<body class="bodyclass">
     <header>
         <nav class="navbar navbar-default" id="navbar_header">
             <div class="container-fluid" id="container">
@@ -38,19 +38,38 @@
             </div><!-- /.container-fluid -->
           </nav>
     </header>
+
+
+    
     
     <!-- The main section of page -->
 
-    <section class="container-fluid" id="main_section">
-      <div>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita eligendi tempore at consequatur omnis perferendis possimus, aspernatur labore
-           consequuntur culpa ipsa hic voluptate quam, repellendus doloremque error repudiandae, quisquam inventore.
-        </p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint voluptates, consequuntur fuga nesciunt quas, sequi doloremque assumenda 
-          architecto nobis possimus, dolorem quos repellat nam culpa totam provident! Expedita, officiis accusantium!
-        </p>
+    <div class="container-fluid" id="main_section">
+      <div class="div_1">
+        <p class="p_1">Welcome</p>
+        <div class="div_2">
+            <p class="p_2">Welcome! please enter your details</p>
+            <div class="div_3">
+                <h3 class="h3_signin">Sign in</h3>
+                <form action="form" id="form_control">
+                    <div class="div_4">
+                        <label for="Email">Email Address</label><br>
+                        <input type="email" placeholder="example@gmail.com">
+                    </div>
+                    <div class="div_4">
+                        <label for="password">Password</label><br>
+                        <input type="password" placeholder="password">
+                        <i class="glyphicon glyphicon-eye-open" aria-hidden="true"></i>
+                    </div>
+                </form>
+            </div> 
+        </div>
       </div>
-    </section>
+    </div>
+
+
+
+
     <footer>
       <nav class="footer_nav">
         <nav class="footer_container">

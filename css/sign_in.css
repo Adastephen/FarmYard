@@ -1,18 +1,20 @@
 #navbar_header {
-   background-color: rgba(20, 144, 48, 1);
+   background-color: #FDF7FD;
+   border: none;
 }
 #brand_logo {
     font-family: 'glyphicons Halflings';
     vertical-align: middle;
-    height: 50px;
-    width: 60px;
-    margin-top: 0px;
+    height: 120px;
+    width: 120px;
+    margin-top: -40px;
+
 }
 #navbar_list>li>a {
-    color: rgba(253, 247, 253, 1);
+    color: #000000;
 }
 #sign-in_list {
-    background-color: rgba(0, 0, 0, 1);
+    background-color: #34A853;
     border-radius: 16%;
     margin: 10px;
     margin-right: 0px;
@@ -35,6 +37,9 @@ p {
    margin: 10px;
    margin-top: 25px;
 }
+/* the main sectional css */
+
+/* the footer css */
 .smedia_handle {
     list-style: none;
     float: right;
@@ -42,12 +47,14 @@ p {
     display: block;
     margin: 4px;
     margin-left: 24px;
+    
 }
 .smedia_handle li {
     float: left;
     padding-right: 10px;
     text-align: center;
     margin-top: 25px;
+    margin-left: 30px;
 }
 .smedia_handle>li>a>img {
     font-family: 'glyphicons Halflings';

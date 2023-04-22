@@ -1,70 +1,128 @@
+.bodyclass {
+    background-color: #FDF7FD;
+}
 #navbar_header {
-   background-color: #FDF7FD;
-   border: none;
-}
-#brand_logo {
-    font-family: 'glyphicons Halflings';
-    vertical-align: middle;
-    height: 120px;
-    width: 120px;
-    margin-top: -40px;
-
-}
-#navbar_list>li>a {
-    color: #000000;
-}
-#sign-in_list {
-    background-color: #34A853;
-    border-radius: 16%;
+    background-color: #FDF7FD;
+    border: none;
+ }
+ #brand_logo {
+     font-family: 'glyphicons Halflings';
+     vertical-align: middle;
+     height: 120px;
+     width: 120px;
+     margin-top: -40px;
+ 
+ }
+ #navbar_list>li>a {
+     color: #000000;
+ }
+ #sign-in_list {
+     background-color: #34A853;
+     border-radius: 16%;
+     margin: 10px;
+     margin-right: 36px;
+     margin-left: 72px;
+     padding-left: 5px;
+     padding-right: 5px;
+     color: white !important;
+ }
+ #Service-provider_list, #Lorem-ipsum_list, #Farm-produce_list {
+     margin-top: 10px;
+     margin-bottom: 10px;
+ }
+ 
+ p {
     margin: 10px;
-    margin-right: 0px;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-#Service-provider_list, #Lorem-ipsum_list, #Farm-produce_list {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.footer_nav {
-    background-color: rgba(20, 144, 48, 1);
-    height: 70px;
-    color: rgba(253, 247, 253, 1);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    box-sizing: border-box;
-}
-p {
-   margin: 10px;
-   margin-top: 25px;
-}
-/* the main sectional css */
+    margin-top: 25px;
+ }
 
-/* the footer css */
-.smedia_handle {
-    list-style: none;
-    float: right;
-    text-decoration: none;
-    display: block;
-    margin: 4px;
-    margin-left: 24px;
+
+
+
+
+
+
+ /* the main sectional css */
+ #main_section {
+    background-color: #FDF7FD;
+    margin-top: 0;
+ }
+ .div_1 {
+    margin: 24px;
+ }
+.p_1 {
+    font-size: 36px;
+    margin: 0;
+    font-weight: bold;
+}
+.div_2 {
+    margin: 0;
+    background-color: #D4F4B4;
+    padding: 36px;
+    padding-left: 70px;
     
 }
-.smedia_handle li {
-    float: left;
-    padding-right: 10px;
-    text-align: center;
-    margin-top: 25px;
-    margin-left: 30px;
+.p_2 {
+    margin-bottom: 0;
+    margin-left: 0;
+    font-size: 16px;
 }
-.smedia_handle>li>a>img {
-    font-family: 'glyphicons Halflings';
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1;
-    height: 20px;
-    width: 20px;
+.div_3 {
+    background-color: #FFFDFD;
+    margin-top: 0;
+    padding: 36px;
+    padding-left: 70px;
+}
+.h3_signin {
+    text-align: center;
+    font-size: 36;
+    font-weight: bold;
+}
+#form_control {
+    width: 100%;
+}
+div .div_4 {
+    width: 200px;
 }
 
-.footer_container {
-    margin: 12px;
-}
+
+
+
+
+ /* the footer css */
+ .footer_nav {
+     background-color: rgba(20, 144, 48, 1);
+     height: 70px;
+     color: rgba(253, 247, 253, 1);
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 16px;
+     box-sizing: border-box;
+ }
+ .smedia_handle {
+     list-style: none;
+     float: right;
+     text-decoration: none;
+     display: block;
+     margin: 4px;
+     margin-left: 24px;
+     
+ }
+ .smedia_handle li {
+     float: left;
+     padding-right: 10px;
+     text-align: center;
+     margin-top: 25px;
+     margin-left: 30px;
+ }
+ .smedia_handle>li>a>img {
+     font-family: 'glyphicons Halflings';
+     font-style: normal;
+     font-weight: 400;
+     line-height: 1;
+     height: 20px;
+     width: 20px;
+ }
+ 
+ .footer_container {
+     margin: 12px;
+ }

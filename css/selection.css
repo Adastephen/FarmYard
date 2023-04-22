@@ -39,7 +39,9 @@
     border-radius: 5px;
     width: 30%;
     text-align: center;
-
+}
+#farmer:hover, #service_provider:hover, #buyer:hover {
+    box-shadow: 2px 8px 20px 8px #55065f67;
 }
 div>img {
     height: 80px;
